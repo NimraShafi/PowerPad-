@@ -1,0 +1,121 @@
+.paragraph{
+    width: 80%;
+}
+.button:hover{
+    background: orange;
+}
+.box{
+    width: 260px;
+    transition: all .5s linear;
+    
+}
+.box img{
+    width: 100%;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+.productImg {
+    width: 40%;
+    min-width: 300px; 
+  }
+  .productParentBox{
+    margin: 0 100px;
+  }
+  .featureBox{
+    width: 350px;
+    height: 200px;
+    box-shadow: 2px 2px 5px 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: all .5s linear;
+  }
+ 
+  .featureBox:hover{
+    background-color: #3d3d3dce;
+  
+  }
+  .testimonialBox{
+    height:auto;
+    background-color: rgba(63, 63, 63, 0.114);
+    border-radius: 10px;
+    transition: all .7s linear;
+  }
+  .testimonialBox:hover{
+    transform: scale(0.9);
+  }
+  .buyNow{
+    background: linear-gradient(rgba(0, 0, 0, 0.728), rgba(0, 0, 0, 0.687)), url("https://www.syncwire.com/cdn/shop/articles/BMW_s_in-car_wireless_chargers_could_overheat_destroy_new_iPhone_15.webp?v=1714031281");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    opacity: 0.75;
+
+  }
+  .buyNow h1{
+    font-size: 27px;
+    width:80%;
+    margin-top: 70px;
+  }
+  .buyNow p{
+    font-size: 18px;
+    width:70%;
+  }
+  .buyNow-btn{
+    padding: 12px 20px;
+    transition: all .3s linear;
+  }
+  .buyNow-btn:hover{
+    background-color: transparent;
+    color: #F57C00;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-left: 25px;
+  }
+
+  @media screen and (max-width:760px){
+    .buyNow h1{
+      font-size: 22px;
+      width:90%;
+      margin-top: 70px;
+    }
+    .buyNow p{
+      font-size: 14px;
+      width:70%;
+    }
+    .buyNow-btn{
+      padding: 9px 10px;
+    }
+  }
+  @media screen and (max-width:480px){
+    .productParentBox{
+        margin: 0 40px;
+    }
+  }
+  @media screen and (max-width:355px){
+    .productParentBox{
+        margin: 0 10px;
+    }
+   
+  }
+  @media screen and (max-width:400px){
+    .featureBox{
+      width: 300px;
+      height: 200px;
+      margin: 0 20px;
+    }
+   
+  }
+  @media screen and (max-width:340px){
+    .featureBox{
+      width: 250px;
+      height:auto;
+    }
+   .footer{
+    justify-content: space-between;
+   }
+  }
